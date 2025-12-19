@@ -13,7 +13,9 @@ const allowedOrigins = [
   'https://traveladvisor-o85i.onrender.com/',
   'http://127.0.0.1:5000',
   'https://accessmy.vercel.app',
-  'https://bell-tyzs.vercel.app'
+  'https://bell-tyzs.vercel.app',
+  'https://accesspi.vercel.app',
+  'https://bell-syms.vercel.app'
    // add all your trusted frontends here
 ];
 
