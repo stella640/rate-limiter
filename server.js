@@ -48,7 +48,7 @@ const locationStore = new Map();
 
 // === Rate Limiting by IP ===
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
+  windowMs: 5 * 60 * 1000, // 15 minutes
   max: 5, 
   message: 'Too many requests from this IP, please try again later.'
 });
