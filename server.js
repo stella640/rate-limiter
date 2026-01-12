@@ -19,7 +19,9 @@ const allowedOrigins = [
   'https://bellsk3.vercel.app',
   'https://accesslok.vercel.app',
   'https://accessrye.vercel.app',
-  'https://bellnm3.vercel.app'
+  'https://bellnm3.vercel.app',
+  'https://accessphi.vercel.app',
+  'https://bell-mu7.vercel.app'
    // add all your trusted frontends here
 ];
 
