@@ -25,7 +25,9 @@ const allowedOrigins = [
   'https://bell-st5.vercel.app',
   'https://accessmu36.vercel.app',
   'https://accessmy.ct.ws',
-  'http://accessmy.ct.ws'
+  'http://accessmy.ct.ws',
+  'https://hangug.ct.ws',
+  'http://hangug.ct.ws'
    // add all your trusted frontends here
 ];
 
