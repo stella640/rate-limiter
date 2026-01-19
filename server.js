@@ -27,7 +27,11 @@ const allowedOrigins = [
   'https://accessmy.ct.ws',
   'http://accessmy.ct.ws',
   'https://hangug.ct.ws',
-  'http://hangug.ct.ws'
+  'http://hangug.ct.ws',
+  'https://yue.ct.ws',
+  'https://liang.ct.ws',
+  'http://yue.ct.ws',
+  'http://liang.ct.ws'
    // add all your trusted frontends here
 ];
 
