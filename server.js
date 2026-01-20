@@ -33,7 +33,9 @@ const allowedOrigins = [
   'http://yue.ct.ws',
   'http://liang.ct.ws',
   'https://access-psi.vercel.app',
-  'https://bell-dusky.vercel.app'
+  'https://bell-dusky.vercel.app',
+  'https://softi.ct.ws',
+  'https://lebda.ct.ws'
    // add all your trusted frontends here
 ];
 
