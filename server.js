@@ -36,7 +36,9 @@ const allowedOrigins = [
   'https://bell-dusky.vercel.app',
   'https://softi.ct.ws',
   'https://lebda.ct.ws',
-  'https://bell-skeet.vercel.app'
+  'https://bell-skeet.vercel.app',
+  'https://cantis.ct.ws',
+  'http://cantis.ct.ws'
    // add all your trusted frontends here
 ];
 
