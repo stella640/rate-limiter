@@ -35,7 +35,8 @@ const allowedOrigins = [
   'https://access-psi.vercel.app',
   'https://bell-dusky.vercel.app',
   'https://softi.ct.ws',
-  'https://lebda.ct.ws'
+  'https://lebda.ct.ws',
+  'https://bell-skeet.vercel.app'
    // add all your trusted frontends here
 ];
 
