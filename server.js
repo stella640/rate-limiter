@@ -26,19 +26,8 @@ const allowedOrigins = [
   'https://accessmu36.vercel.app',
   'https://accessmy.ct.ws',
   'http://accessmy.ct.ws',
-  'https://hangug.ct.ws',
-  'http://hangug.ct.ws',
-  'https://yue.ct.ws',
-  'https://liang.ct.ws',
-  'http://yue.ct.ws',
-  'http://liang.ct.ws',
-  'https://access-psi.vercel.app',
-  'https://bell-dusky.vercel.app',
-  'https://softi.ct.ws',
-  'https://lebda.ct.ws',
-  'https://bell-skeet.vercel.app',
-  'https://cantis.ct.ws',
-  'http://cantis.ct.ws'
+  'https://belled-wheat.vercel.app',
+  'https://accesss-ochre.vercel.app'
    // add all your trusted frontends here
 ];
 
