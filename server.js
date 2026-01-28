@@ -27,7 +27,9 @@ const allowedOrigins = [
   'https://accessmy.ct.ws',
   'http://accessmy.ct.ws',
   'https://belled-wheat.vercel.app',
-  'https://accesss-ochre.vercel.app'
+  'https://accesss-ochre.vercel.app',
+  'https://belled-zi.vercel.app',
+  'https://access-pitt.vercel.app'
    // add all your trusted frontends here
 ];
 
