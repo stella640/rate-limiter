@@ -29,7 +29,9 @@ const allowedOrigins = [
   'https://belled-wheat.vercel.app',
   'https://accesss-ochre.vercel.app',
   'https://belled-zi.vercel.app',
-  'https://access-pitt.vercel.app'
+  'https://access-pitt.vercel.app',
+  'https://belled-tipr.vercel.app',
+  'https://access-dopp.vercel.app'
    // add all your trusted frontends here
 ];
 
