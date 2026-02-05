@@ -37,7 +37,9 @@ const allowedOrigins = [
   'https://belled-dir.vercel.app',
   'https://access-dir.vercel.app',
   'https://deka.ct.ws',
-  'http://deka.ct.ws'
+  'http://deka.ct.ws',
+  'https://backe.ct.ws',
+  'http://backe.ct.ws'
    // add all your trusted frontends here
 ];
 
