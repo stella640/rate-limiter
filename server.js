@@ -33,7 +33,9 @@ const allowedOrigins = [
   'https://belled-tipr.vercel.app',
   'https://access-dopp.vercel.app',
   'https://access-piy.vercel.app',
-  'https://belled-piy.vercel.app'
+  'https://belled-piy.vercel.app',
+  'https://belled-dir.vercel.app',
+  'https://access-dir.vercel.app'
    // add all your trusted frontends here
 ];
 
