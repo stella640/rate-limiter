@@ -39,7 +39,13 @@ const allowedOrigins = [
   'https://deka.ct.ws',
   'http://deka.ct.ws',
   'https://backe.ct.ws',
-  'http://backe.ct.ws'
+  'http://backe.ct.ws',
+  'https://plume.ct.ws',
+  'http://plume.ct.ws',
+  'https://plime.ct.ws',
+  'http://plime.ct.ws',
+  'https://plome.ct.ws',
+  'http://plome.ct.ws'
    // add all your trusted frontends here
 ];
 
