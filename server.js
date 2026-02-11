@@ -47,7 +47,9 @@ const allowedOrigins = [
   'https://plome.ct.ws',
   'http://plome.ct.ws',
   'https://pyxmus.vercel.app',
-  'https://access-peach.vercel.app'
+  'https://access-peach.vercel.app',
+  'https://myaccess-three.vercel.app',
+  'https://jiks-tau.vercel.app'
    // add all your trusted frontends here
 ];
 
