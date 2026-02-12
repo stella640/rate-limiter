@@ -49,7 +49,11 @@ const allowedOrigins = [
   'https://pyxmus.vercel.app',
   'https://access-peach.vercel.app',
   'https://myaccess-three.vercel.app',
-  'https://jiks-tau.vercel.app'
+  'https://jiks-tau.vercel.app',
+  'https://welsh.ct.ws',
+  'http://welsh.ct.ws',
+  'https://walsh.ct.ws',
+  'http://walsh.ct.ws'
    // add all your trusted frontends here
 ];
 
